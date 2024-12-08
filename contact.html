@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCP Facility</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="images/logo300.png"> </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li> <a href="index.html"> Home</a></li>
+                    <li> <a href="about.html"> About</a></li>
+                    <li> <a href="events.html"> Events</a></li>
+                    <li> <a href="blog.html"> Blog</a></li>
+                    <li> <a href="contact.html"> Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+    <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15435.008125136561!2d121.0372218!3d14.7266066!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b0ff7eb3d621%3A0x437d85420878d598!2sBestlink%20College%20of%20the%20Philippines!5e0!3m2!1sen!2sph!4v1733607757124!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+
+    <section class="contact-us">
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>P2GP+JVX, Topaz, Novaliches</h5>
+                        <p>Quezon City, Metro Manila</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>284428601</h5>
+                        <p>Monday to Saturday</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>bcp-inquiry@bcp.edu.ph</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+<div class="contact-col">
+
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter email address" required>
+                <input type="text" name="subject"placeholder="Enter your subject" required>
+                <textarea rows="8" name="message"placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+
+        </div>
+
+    </div>
+
+    </section>
+    </section>
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>At Bestlink College of the Philippines, We provide and promote quality education with modern and unique techniques to able to enhance <br> the skill and the knowledge of our dear students to make them globally competitive and productive citizens.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-envelope"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+        </section>
+
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function showMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+    
+</body>
+</html>
