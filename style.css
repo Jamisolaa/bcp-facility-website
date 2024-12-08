@@ -107,6 +107,7 @@ nav .fa{
         position: fixed;
         background:  #4399f4;
         height: 100vh;
+        width: 200px;
         top: 0;
         right: -200px;
         text-align: left;
